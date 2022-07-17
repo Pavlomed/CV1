@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pavlo Medvedev CV</title>
+    <link href="styles.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <img src="myphoto.jpg" alt="Моё фото" class="avatar" />
+        <div class="info-text">
+          <h1>Pavlo Medvedev</h1>
+          <p style="color: #0f681b">
+            I am a Junior <strong>Frontend Developer</strong>
+          </p>
+          <p style="color: #f537dc">
+            I love traveling, improving my knowledge of foreign languages, and
+            <strong style="color: #f53737">programming</strong>
+          </p>
+          <h4>My social networks</h4>
+
+          <a
+            href="https://www.facebook.com/profile.php?id=100078396994390"
+            target="_blank"
+            style="color: #37c8f5"
+          >
+            Facebook</a
+          >
+          |
+          <a
+            href="https://www.linkedin.com/in/pavel-medvedev-63a65888"
+            target="_blank"
+            style="color: #37c8f5"
+          >
+            LinkedIn</a
+          >
+          <br />
+          <audio src="Limp Bizkit.mp3" controls>
+            This audio is not supported by your browser
+          </audio>
+        </div>
+      </div>
+
+      <div class="card1 bg-yellow" class="menu">
+        <table class="table">
+          <tr>
+            <th><h2 class="skills" id="item" title="Click on me!">My skills</h2></th>
+            <th><h2 class="works" id="item1" title="Click on me!">My works</h2></th>
+          </tr>
+          <tr>
+            <td>
+              <ol class="list" id="submenu">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Java Script</li>
+              </ol>
+            </td>
+            <td>
+              <ol class="list" id="submenu1">
+                <li>
+                  <a
+                    href="https://pavlomed.github.io/English-School/"
+                    target="_blank"
+                    >English school for children</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://pavlomed.github.io/Healthy-Mother-/"
+                    target="_blank"
+                    >Healthy mother</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://pavlomed.github.io/Main-Coon/"
+                    target="_blank"
+                    >Main Coon</a
+                  >
+                </li>
+              </ol>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="card2 bg-green" class="menu1">
+        <h2 id="item2" title="Click on me!">Work experience</h2>
+        <table class="table" id="submenu2">
+          <!--<tr>
+                    <th>Компания</th>
+                    <th>Должность</th>
+                    <th>Год</th>
+                </tr>-->
+          <tr>
+            <td>
+              <a href="https://www.siemens.com/global/en.html" target="_blank"
+                ><p style="color: #37c8f5" ;>SIEMENS AG</p></a
+              >
+            </td>
+            <td>Business Development Manager</td>
+            <td>2010 - Present</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://uhe.gov.ua/" target="_blank"
+                ><p style="color: #37c8f5" ;>UkrHydroEnergo</p></a
+              >
+            </td>
+            <td>Operator of Main Controling Board of Hydro Power Plant</td>
+            <td>2009 - 2010</td>
+          </tr>
+        </table>
+      </div>
+      <div class="card3 bg-red">
+        <h2 id="item3" title="Click on me!">Education</h2>
+        <table class="table" id="submenu3">
+          <!--<tr>
+                        <th>Компания</th>
+                        <th>Должность</th>
+                        <th>Год</th>
+                    </tr>-->
+          <tr>
+            <td>
+              <a href="https://kpi.ua/en/fmm" target="_blank"
+                >Kyiv Polytechnic Institute</a
+              >
+            </td>
+            <td>Master of Management of Organizations</td>
+            <td>2006 - 2009</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://kpi.ua/en/fea" target="_blank"
+                >Kyiv Polytechnic Institute</a
+              >
+            </td>
+            <td>Dipl. Eng. Electric Power Plants</td>
+            <td>2003 - 2009</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="contact">
+        <h2>Contact with me</h2>
+        <form action="https://esoteric2012@gmail.com">
+          <div class="row">
+            <div class="form-group">
+              <label for="name">Your name:</label>
+              <input type="text" id="name" placeholder="Enter your name..." />
+            </div>
+            <div class="form-group">
+              <label for="email">Your e-mail:</label>
+              <input type="email" id="email" placeholder="Enter e-mail..." />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="text">Your message:</label>
+            <textarea id="text" rows="5"></textarea>
+          </div>
+          <input class="btn" type="submit" value="Contact!" />
+        </form>
+      </div>
+      <div class="position">
+        <div class="box"></div>
+      </div>
+    </div>
+
+    <div style="margin-bottom: 500px"></div>
+    <script src="main.js"></script>
+  </body>
+</html>
